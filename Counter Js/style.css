@@ -1,0 +1,35 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+body{
+	width: 100%;
+	height: 100vh;
+	background:#f2f3f7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	width: 80%;
+	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.container> div{
+	flex-basis: 20%;
+	text-align: center;
+	box-shadow:inset -2px -2px 8px rgba(255,255,255,1),
+				inset -2px -2px 12px rgba(255,255,255,0.5),
+				inset 2px 2px 4px rgba(255,255,255,0.1),
+				inset 2px 2px 8px rgba(0,0,0,0.15);
+	border-radius: 10px;
+	padding: 10px;
+	border-bottom: 5px solid #ff6363;
+}
+
+
+
+.container> div img{
+	width: 50%;
+}
+
